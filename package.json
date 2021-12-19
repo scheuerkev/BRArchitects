@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "prettier": "^2.5.1",
+    "sass": "^1.45.0"
+  },
+  "name": "br-architects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss -o css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
