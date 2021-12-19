@@ -1,6 +1,48 @@
+//first, importing partials
 @import "normalize";
 @import "base";
+@import "variables";
+@import "layout";
 
-body {
-  background: lightgray;
+//HEADER
+header {
+  letter-spacing: 0.3rem;
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+  li {
+    margin-left: 3rem;
+  }
+  box-shadow: 0 1.5px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  flex: 1;
+  a {
+    span {
+      font-family: var(--impact);
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+  }
+}
+
+//VP-BLOCK
+.vp-brand {
+  text-align: center;
+  color: var(--light);
+  letter-spacing: 0.3rem;
+  span {
+    text-transform: capitalize;
+    background: rgba(12, 12, 12, 0.6);
+    padding: 0.7rem 1rem;
+    font-family: var(--impact);
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 0.4rem;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
 }

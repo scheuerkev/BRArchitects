@@ -1,0 +1,28 @@
+//styling all layout blocks
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--light);
+  position: sticky;
+  top: 0;
+  min-height: 40px;
+}
+
+nav ul {
+  display: flex;
+  flex: auto;
+}
+
+.vp {
+  display: flex;
+  min-height: calc(100vh - 60px);
+  align-items: center;
+  justify-content: center;
+  background: url("../img/architect.jpeg") center center/cover;
+}
+
+.main-container {
+  max-width: 1100px;
+  margin: auto;
+}
